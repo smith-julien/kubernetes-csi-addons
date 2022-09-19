@@ -1,0 +1,9 @@
+{{- if .Values.crds.install }}
+- CRDs installed
+{{- end }}
+{{- if .Values.rbac.install }}
+- RBACs installed
+{{- end }}
+{{- if .Values.controller.install }}
+- Controller installed
+{{- end }}
